@@ -106,20 +106,11 @@ nav .nav-item {
 
 }
 
-/*.images-ipad {background-image: url("../assets/images/apple-ipad.jpg")}*/
-/*.images-macs {background-image: url("../assets/images/macbook.jpg")}*/
-/*.images-man {background-image: url("../assets/images/man.jpg")}*/
-/*.images-security {background-image: url("../assets/images/security.jpg")}*/
-
 .small-images {
     border: .2em solid #e6e6e6;
     border-radius: 1px;
     background-size: cover;
 }
-
-/*.small-images-phone {background-image: url("../assets/images/mobile-phone.jpg")}*/
-/*.small-images-head {background-image: url("../assets/images/head.jpg")}*/
-/*.small-images-google {background-image: url("../assets/images/google-search.jpg")}*/
 
 .sub-title {
     text-align: center;
