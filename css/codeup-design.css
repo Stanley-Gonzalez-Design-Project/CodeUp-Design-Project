@@ -16,12 +16,7 @@ body {
     margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.anton {
     font-family: 'Anton', sans-serif;
 }
 
@@ -138,14 +133,20 @@ nav .nav-item {
         position: relative;
         top: 5px;
     }
+    .smallOnly {
+        display: none;
+    }
 
 }
 
+@media screen and (min-width: 992px) {
+    .largeOnly{
+        display: revert;
+    }
+}
 @media screen and (min-width: 1200px) {
     .wrapper .row {margin-top: 3em;}
     .custom-card {padding-right: 3em;}
     hr {width: 100%;}
-    .largeOnly{
-        display: revert;
-    }
+
 }
