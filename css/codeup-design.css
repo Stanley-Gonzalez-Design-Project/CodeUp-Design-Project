@@ -127,7 +127,6 @@ nav .nav-item {
 
 @media screen and (min-width: 720px) {
     .sub-title {text-align: left;}
-    hr {width: 100%;}
 
     .brand-name  {
         position: relative;
@@ -147,6 +146,5 @@ nav .nav-item {
 @media screen and (min-width: 1200px) {
     .wrapper .row {margin-top: 3em;}
     .custom-card {padding-right: 3em;}
-    hr {width: 100%;}
 
 }
